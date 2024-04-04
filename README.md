@@ -1,5 +1,5 @@
 
-# by [@Parad1st](https://github.com/Parad1st)[YouTube] [https://youtube.com/@Parad1st]
+by [@Parad1st](https://github.com/Parad1st)[YouTube] [https://youtube.com/@Parad1st]
 Пж цени чужой труд
 # Про скример
 Это очень громкий скример, открывается на весь экран
