@@ -1,7 +1,6 @@
-<!DOCTYPE html><html lang="en"><head> // Язык, но не советую менять
+<!DOCTYPE html><html lang="ru"><head> 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-wid1th, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">  
-// Ниже название и описание сайта
 <title>Free Download By Parad1st</title>
 <meta property="og:title" content="Free Download"> 
 <meta property="og:site_name" content="Free Download">
@@ -12,7 +11,7 @@
 <meta name="twitter:title" content="Programm">
 <meta name="twitter:site" content="@fps_boost">
 <meta name="twitter:description" content="FREE!">
-<meta name="twitter:image:src" content="Parad1st.png"> // Логотип для сайта
+<meta name="twitter:image:src" content="Parad1st.png">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&amp;display=swap" rel="stylesheet">
 <style type="text/css">
@@ -169,11 +168,11 @@
 <div id="accept-button" class="overlay-button">Принять</div>
 <div id="decline-button" class="overlay-button">Отклонить</div>
 </div>
-<a href="https://youtube.com/@Parad1st" target="_blank" class="overlay-link">Пользовательское соглашение</a>
+<a href="https://parad1st.github.io/" target="_blank" class="overlay-link">Пользовательское соглашение</a>
 </div>
 </div>
 <div class="scare">
-<video id="video" class="video" src="media/video.mp4" loop></video> // Само видео. Можно заменить на своё!
+<video id="video" class="video" src="media/video.mp4" loop></video>
 </div>
 <script type="text/javascript">
             const video = document.getElementById("video");
@@ -197,7 +196,6 @@
 
             function videoClick(event) {
                 if(event) event.preventDefault();
-                // если сайт не в полноэкранном режиме
                 const { documentElement } = document;
                 if(documentElement.requestFullscreen) documentElement.requestFullscreen();
                 else if(documentElement.mozRequestFullScreen) documentElement.mozRequestFullScreen();
